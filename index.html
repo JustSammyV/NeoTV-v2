@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- 
-    la tele por Alplox
+    Forked from Alplox's la tele.
     https://github.com/Alplox/la-tele (v0.8)
 -->
 
@@ -11,6 +11,7 @@
     <base target="_blank">
     <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
     <link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="canonical" href="https://neotv.cl" />
     <script src="assets/js/canales.js"></script>
     <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
     <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
@@ -21,20 +22,24 @@
     <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#051320" />
     <!-- Primary Meta Tags -->
-    <title>La tele</title>
-    <meta name="title" content="La tele">
-    <meta name="description" content="Canales de Chile a un toque.">
+    <title>Inicio • NeoTV.cl - Portal de canales IPTV independientes</title>
+    <meta name="title" content="Inicio • NeoTV.cl - Portal de canales IPTV independientes">
+    <meta name="description" content="¡NeoTV, tu portal de entretenimiento! 📺🚀 Disfruta de canales IPTV independientes como Dreiko TV, Spectrum Channel, Latino Kids TV, ACS Network y más. Explora un mundo de diversión sin límites.">
+	<meta name="keywords" content="neotv, energeek, streaming, television, iptv, anime, series, sitcom, cartoon">
+	<meta name="robots" content="nofollow, noarchive">
+	<meta name="author" content="EnerGeek">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alplox.github.io/la-tele/">
-    <meta property="og:title" content="La tele">
-    <meta property="og:description" content="Canales de Chile a un toque.">
+	<meta property="og:author" content="EnerGeek">
+    <meta property="og:url" content="https://neotv.cl/">
+    <meta property="og:title" content="Inicio • NeoTV - Tu portal de canales IPTV independientes">
+    <meta property="og:description" content="¡NeoTV, tu portal de entretenimiento! 📺🚀 Disfruta de canales IPTV independientes como Dreiko TV, Spectrum Channel, Latino Kids TV, ACS Network y más. Explora un mundo de diversión sin límites.">
     <meta property="og:image" content="https://raw.githubusercontent.com/Alplox/la-tele/master/assets/img/v0.8.jpg">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://alplox.github.io/la-tele/">
-    <meta property="twitter:title" content="La tele">
-    <meta property="twitter:description" content="Canales de Chile a un toque.">
+    <meta property="twitter:url" content="https://neotv.cl">
+    <meta property="twitter:title" content="Inicio • NeoTV - Portal de canales IPTV independientes">
+    <meta property="twitter:description" content="¡NeoTV, tu portal de entretenimiento! 📺🚀 Disfruta de canales IPTV independientes como Dreiko TV, Spectrum Channel, Latino Kids TV, ACS Network y más. Explora un mundo de diversión sin límites.">
     <meta property="twitter:image"
         content="https://raw.githubusercontent.com/Alplox/la-tele/master/assets/img/v0.8.jpg">
 
@@ -59,11 +64,13 @@
 
     <header class="header-principal">
         <h1>
-            <a href="./" target="_self">La tele</a>
+            <a href="./" target="_self"><img src="assets/img/neotv-logo.png" width="150px" height="75px" alt="NeoTV - Portal de canales IPTV independiente"></a>
         </h1>
         <p>
-            <strong>Probar otro visor: </strong>
-            <a href="https://alplox.github.io/teles/" rel="nofollow noreferrer noopener" target="_self">teles</a>
+            <strong>Aceptamos tus donaciones</strong>
+            <a href="https://esponsor.com/energeek" rel="nofollow noreferrer noopener" target="_self">aquí</a>
+			&bull; <strong>¿Quieres ver tu canal aquí?</strong>
+            <a href="https://energeek.cl/agrega-tu-canal" rel="nofollow noreferrer noopener" target="_self">¡Envianoslo aquí!</a>
         </p>
     </header>
 
@@ -84,8 +91,8 @@
 
             <aside class="canales-container sombra">
                 <header class="header-secundario">
-                    <h2>Canales</h2>
-                    <input class="filtro" id="filtro" type="search" title="Buscador" placeholder="Buscar">
+                    <h2>Lista de canales</h2>
+                    <input class="filtro" id="filtro" type="search" title="Buscador" placeholder="¡Busca tu canal favorito!">
                 </header>
 
                 <div class="flip-container" id="flip-container">
@@ -96,11 +103,11 @@
                 </div>
 
                 <div class="opciones-container">
-                    <button role="button" class="btn btn-alternar" id="btn-alternar" title="Alternar entre lista IPTV">
-                       Alternar Listado 
+                    <button role="button" class="btn btn-alternar" id="btn-alternar" title="Pagina 2 de lista">
+                       Página 2 
                     </button>
                     <button role="button" class="btn btn-overlay" id="btn-overlay" title="Nombre sobre transmisiones on/off">
-                        Overlay <span id="span-overlay"></span>
+                        Alternar Overlay <span id="span-overlay"></span>
                     </button>
                 </div>
             </aside>
@@ -110,11 +117,11 @@
     <footer>
         <button id="boton-legal" class="btn btn-legal">Aviso Legal</button>
         <div>
-            <a href="https://github.com/Alplox/la-tele" rel="nofollow noreferrer noopener">Desarrollado por Alplox</a>
+            <a href="/#" rel="nofollow noreferrer noopener">Desarrollado por Alplox</a> <span><i class="ai-heart"></i></span> <a href="https://sammyvibes.cl" rel="nofollow noreferrer noopener">Modificado por Samantha V.</a>
             <span><i class="ai-heart"></i></span>
-            <a href="https://github.com/Alplox/la-tele#listado-canales-disponibles-junto-a-su-fuente"
-            rel="nofollow noreferrer noopener">Ver fuentes
-            transmisiones</a>
+            <a href="https://github.com/Alplox/la-tele/"
+            rel="nofollow noreferrer noopener">Revisa el repositorio original.
+            </a>
         </div>
     </footer>
 
@@ -123,21 +130,19 @@
         <div class="modal-content">
             <div class="modal-header">
                 <span><i class="ai-cross"></i></span>
-                <h1>Descargo de responsabilidad</h1>
+                <h1>Aviso de responsabilidad legal</h1>
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>"la tele" es un proyecto de código abierto gratuito que permite gestionar canales de televisión
-                        de libre acceso por Internet.</li>
-                    <li>"la tele" no decodifica transmisiones. Los enlaces que figuran en este proyecto son procesados
+                    <li>NeoTV no decodifica transmisiones. Los enlaces que figuran en este proyecto son procesados
                         desde diferentes sitios públicos con libre distribución/acceso.</li>
-                    <li>"la tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o
+                    <li>NeoTV no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o
                         medio.</li>
                     <li>El proyecto cuenta con reproductores multimedia, los que no corresponden a una retransmisión
                         de los canales ni implica la decodificación de éstos.</li>
-                    <li>No se es propietario, ni responsable de ninguno de los contenidos emitidos por parte de cada
+                    <li>NeoTV no es propietario, ni responsable de ninguno de los contenidos emitidos por parte de cada
                         canal.</li>
-                    <li>"la tele" no ofrece canales de pago bajo ninguna modalidad.</li>
+                    <li>NeoTV no ofrece ni ofrecerá canales de pago bajo ninguna modalidad.</li>
                     <li>En este proyecto no se almacena ninguna transmisión.</li>
                     <li>El proyecto tanto como sus mantenedores no asumen responsabilidad alguna respecto a los
                         derechos de propiedad
@@ -145,17 +150,21 @@
                     <li>El usuario por defecto tiene la capacidad de dirigirse al sitio oficial de cada transmisión
                         en todo
                         momento.</li>
-                    <li>Si posees los derechos de algún canal y deseas que sea retirado, <a
-                            href="https://github.com/Alplox/la-tele/issues" rel="nofollow noreferrer"> contáctame</a>.
+                    <li>Si usted posee los derechos de alguno de los canales mostrados y desea que sea retirado, <a
+                            href="https://energeek.cl/contacto" rel="nofollow noreferrer"> contactenos</a>.
+                    </li>
+                    <li>Al contrario, si usted cuenta con un canal y desea que lo agreguemos a nuestra lista, puede
+						contactarnos al siguiente formulario: 
+						<a href="https://energeek.cl/agrega-tu-canal" rel="nofollow noreferrer">Sube tu canal a NeoTV</a>.
                     </li>
                 </ul>
-                <p>&mdash; Si quieres conocer el origen de cada livestream visita el <a
-                        href="https://github.com/Alplox/la-tele#listado-canales-disponibles-junto-a-su-fuente"
-                        rel="noopener nofollow noreferrer">repositorio
-                        GitHub <i class="ai-github-fill"></i></a> de la página.</p>
+                <p>&mdash; NeoTV es un proyecto de EnerGeek y su código está basado en la-tele, un proyecto de Alplox. Revise su repositorio en <i class="ai-github-fill"></i> <a
+                        href="https://github.com/Alplox/la-tele"
+                        rel="noopener nofollow noreferrer"> GitHub
+                        </a>.</p>
                 <div class="center">
                     <button type="button" class="btn btn-entendido"
-                        id="btn-entendido">Entendido</button>
+                        id="btn-entendido">¡Entendido!</button>
                 </div>
             </div>
         </div>
