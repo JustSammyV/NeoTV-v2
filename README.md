@@ -30,4 +30,5 @@
 ## Licencia
 ⚖️ [MIT License](https://github.com/Alplox/la-tele/blob/main/LICENSE)
 
-[![Visits Badge](https://badges.strrl.dev/visits/Alplox/la-tele)](https://badges.strrl.dev)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samantha@energeek.cl)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/energeekteam)
