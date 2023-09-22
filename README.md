@@ -1,7 +1,7 @@
 # NeoTV.cl - fork by SammyVibes.
 ## Sitio: https://neotv.cl
 
-[![](https://raw.githubusercontent.com/Alplox/la-tele/master/assets/img/v0.8.jpg)](https://neotv.cl)
+[![](https://neotv.cl/assets/img/webp.png)](https://neotv.cl)
 
 ## Menciones
 ```
